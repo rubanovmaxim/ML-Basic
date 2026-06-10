@@ -105,5 +105,5 @@ class   ImageFile(MediaFile):
         pass
 
     def udpate(self, name, size, creation_date, owner, **kwargs):
-        # Обновление аттрибутов файла
+        # Обновление аттрибутов файла.
         self._check_()
