@@ -15,6 +15,7 @@ class Plane(Vehicle):
             raise CargoOverload("Машина не может перевезти такой тяжелый груз")
         else:
             self.cargo += loaded_cargo
+
     def remove_all_cargo(self):
         c = self.cargo
         self.cargo = 0
